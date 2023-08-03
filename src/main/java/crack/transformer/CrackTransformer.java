@@ -3,7 +3,6 @@ package crack.transformer;
 import crack.AddConstFunction;
 
 import java.lang.instrument.ClassFileTransformer;
-import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
 
 public abstract class CrackTransformer implements ClassFileTransformer {
